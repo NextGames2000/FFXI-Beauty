@@ -9,7 +9,7 @@ console_chatopen 1
 console_screendir screenshots
 
 //Set game variables
-game_forceambientlight 1
+game_forceambientlight 0
 game_ambientlight 255 120 120 120
 game_gamma 50
 game_allowsetcursorpos 0
@@ -61,6 +61,8 @@ NEXTGames Edits:
 // config FrameRateDivisor 1
 // du blinking all all on
 // lua load XIPivot
+// Pivot a XI-View
+// Pivot a FFXI-HD
 // lua load equipviewer
 // lua load GearInfo
 // lua load PartyBuffs
