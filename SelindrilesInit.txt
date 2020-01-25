@@ -9,7 +9,7 @@ console_chatopen 1
 console_screendir screenshots
 
 //Set game variables
-game_forceambientlight 0
+game_forceambientlight 1
 game_ambientlight 255 120 120 120
 game_gamma 50
 game_allowsetcursorpos 0
@@ -26,17 +26,14 @@ drawdistance set 10
 //Bind keys
 //Bind syntax is "bind <key> <up> <command>
 // ^ represents control- and ! is alt, eg !1 is alt-1
-bind !f10 drawdistance set 10
-bind ^f10 drawdistance set 1
-bind f11 game_forceambientlight
-bind f12 showfps
+bind ^@!f9 drawdistance set 10
+bind ^@!f10 drawdistance set 1
+bind ^@!f1 game_forceambientlight
+bind ^@!f11 showfps
 bind sysrq screenshot png hide
+bind ^sysrq screenshot png
 bind ^v paste
-echo Toggle Lighting = F11 (Bump mapping must be off to work properly)
-echo Toggle FPS = F12
-echo DrawDistance Lv 10: Alt-F10
-echo DrawDistance Lv 1: Ctrl-F10
-echo Paste Clipboard = Ctrl-V
+Tl;dr bind ^v paste
 
 //Sets ConsoleBG Background Position
 consolebg position 15 50
@@ -115,9 +112,6 @@ alias dummy gs c cycle ExtraSongsMode
 alias dummysong gs c cycle ExtraSongsMode;herbpastoral me
 alias geo gs c toggle AutoBuffMode;gs c update user
 alias roll roller roll
-alias healus lua load healbot;wait 1;hb on;wait 1;hb follow Beerus
-alias camp hb follow dist 20
-alias close hb follow dist 1
 alias quitit lua unload healbot
 alias showset gs c showset
 alias useitem gs c useitem
