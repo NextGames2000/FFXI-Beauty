@@ -69,3 +69,4 @@ NEXTGames Edits:
 // equipviewer pos 1650 478
 // wait 30
 // lua load GearInfo
+// config FrameRateDivisior 1
