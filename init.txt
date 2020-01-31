@@ -64,8 +64,8 @@ NEXTGames Edits:
 // Pivot a XI-View
 // Pivot a FFXI-HD
 // lua load equipviewer
-// lua load GearInfo
 // lua load PartyBuffs
 // sb visible
-// statustimer setposy 78
-// equipviewer pos 1775 755
+// equipviewer pos 1650 478
+// wait 30
+// lua load GearInfo
