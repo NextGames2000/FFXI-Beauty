@@ -66,7 +66,7 @@ NEXTGames Edits:
 // lua load equipviewer
 // lua load PartyBuffs
 // sb visible
-// equipviewer pos 1650 478
+// equipviewer pos 1650 748
 // wait 30
 // lua load GearInfo
 // config FrameRateDivisior 1
