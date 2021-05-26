@@ -58,15 +58,18 @@ bind !f5 input /ta <a24>
 bind !f6 input /ta <a25>
 
 NEXTGames Edits:
-// config FrameRateDivisor 1
 // du blinking all all on
 // lua load XIPivot
 // Pivot a XI-View
 // Pivot a FFXI-HD
-// lua load equipviewer
+// Pivot a FFXI-HD
 // lua load PartyBuffs
+// lua load parse
+// lua load skillchains
 // sb visible
+// statustimer setposy 78
 // equipviewer pos 1650 748
+// equipviewer pos 2192 990
 // wait 30
 // lua load GearInfo
 // config FrameRateDivisor 1
