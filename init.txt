@@ -60,9 +60,8 @@ bind !f6 input /ta <a25>
 NEXTGames Edits:
 // du blinking all all on
 // lua load XIPivot
-// Pivot a XI-View
 // Pivot a FFXI-HD
-// Pivot a FFXI-HD
+// Pivot a FFXI-XD
 // lua load PartyBuffs
 // lua load parse
 // lua load skillchains
