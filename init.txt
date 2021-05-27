@@ -58,17 +58,36 @@ bind !f5 input /ta <a24>
 bind !f6 input /ta <a25>
 
 NEXTGames Edits:
+// The below line is to enable DressUp BlinkMeNot Functionality.
 // du blinking all all on
+
+// The below four lines are to load these addons when FFXI loads.
 // lua load XIPivot
-// Pivot a FFXI-HD
-// Pivot a FFXI-XD
 // lua load PartyBuffs
 // lua load parse
 // lua load skillchains
+
+// The below four lines are to activate the different common texture packs.
+// Pivot a Amelila
+// Pivot a NEXTGames
+// Pivot a AshenbubsHD-Basic
+// Pivot a AshenbubsHD-Prime
+
+// The below command will make sure scoreboard is visible when you load the game
 // sb visible
+
+// The below commands will make sure your status timer is placed correctly
 // statustimer setposy 78
+
+// The below commands are to set the location of equipviewer.  The first one is for 1920x1080 resolutions, the second is for 4k Resotuions.  Only use one!   
 // equipviewer pos 1650 748
 // equipviewer pos 2192 990
+
+// The below wait command is to make sure that any further commands run LAST and 30 seconds after we login.
 // wait 30
+
+// The below command loads GearInfo.  If it's loaded before this step it has problems.
 // lua load GearInfo
+
+// The below command uncaps FPS to 60.  Setting it to 0 uncaps it and setting it to 2 is the default setting of 30.
 // config FrameRateDivisor 1
