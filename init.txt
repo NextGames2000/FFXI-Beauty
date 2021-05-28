@@ -69,7 +69,7 @@ NEXTGames Edits:
 
 // The below four lines are to activate the different common texture packs.
 // Pivot a Amelila
-// Pivot a NEXTGames
+// Pivot a NextGames
 // Pivot a AshenbubsHD-Basic
 // Pivot a AshenbubsHD-Prime
 
