@@ -76,9 +76,6 @@ NEXTGames Edits:
 // The below command will make sure scoreboard is visible when you load the game
 // sb visible
 
-// The below commands will make sure your status timer is placed correctly
-// statustimer setposy 78
-
 // The below commands are to set the location of equipviewer.  The first one is for 1920x1080 resolutions, the second is for 4k Resotuions.  Only use one!   
 // equipviewer pos 1650 748
 // equipviewer pos 2192 990
