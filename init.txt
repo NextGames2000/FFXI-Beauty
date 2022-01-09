@@ -57,7 +57,7 @@ bind !f4 input /ta <a23>
 bind !f5 input /ta <a24>
 bind !f6 input /ta <a25>
 
-NEXTGames Edits:
+// NEXTGames Edits:
 // The below line is to enable DressUp BlinkMeNot Functionality.
 // du blinking all all on
 
